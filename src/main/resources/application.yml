@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active:
+      - local
+    include:
+      - db
+      - my-service
+      - site
+

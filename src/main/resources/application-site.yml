@@ -1,0 +1,20 @@
+site:
+  author-name: Kim
+  author-email: ta3111@naver.com
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "site-local"
+site:
+  author-name: Kim
+  author-email: ta3111@naver.com
+---
+spring:
+  config:
+    activate:
+      on-profile: "site-dev"
+site:
+  author-name: Kim
+  author-email: ta3111@naver.com
